@@ -1,5 +1,45 @@
 # basic-js-logic
 Function, Strings and Parameters
+<?php 
+function week($curtime) { 
+    
+    $date_array = getdate (time()); 
+    $numdays = $date_array["wday"]; 
+    
+    $startdate = date("Y-m-d", time() - ($numdays * 24*60*60)); 
+    $enddate = date("Y-m-d", time() + ((7 - $numdays) * 24*60*60)); 
+
+    $week['start'] = $startdate; 
+    $week['end'] = $enddate; 
+    
+    return $week; 
+    
+} 
+?>
+
+/* C Program to find Area of a Triangle and Perimeter of a Triangle */
+ 
+#include<stdio.h>
+#include<math.h>
+ 
+int main()
+{
+  float a, b, c, Perimeter, s, Area;
+  
+  printf("\nPlease Enter three sides of triangle\n");
+  scanf("%f%f%f",&a,&b,&c);
+   
+  Perimeter = a+b+c;
+  s = (a+b+c)/2;
+  Area = sqrt(s*(s-a)*(s-b)*(s-c));
+   
+  printf("\n Perimeter of Traiangle = %.2f\n", Perimeter);
+  printf("\n Semi Perimeter of Traiangle = %.2f\n",s);
+  printf("\n Area of triangle = %.2f\n",Area);
+ 
+  return 0;
+}
+
 fs = require('fs');
 fs.writeFile('PisonPeak.txt', 'Hello World from PisonPeak!', function toPisonPeak and Andela(Hello World from PisonPeak) {
   if (mentorship) return console.log(PisonPeak/Andela);
