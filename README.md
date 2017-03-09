@@ -1,5 +1,23 @@
 # basic-js-logic
 Function, Strings and Parameters
+function that would display the current day and time to the console;
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
+
+
 <?php 
 function week($curtime) { 
     
