@@ -1,9 +1,11 @@
+//a file system module function to read file in node
 fs = require('fs');
-fs.writeFile('PisonPeak.txt', 'Hello World from PisonPeak!', function () {
+fs.readFile('PisonPeak.txt', 'Hello World from PisonPeak!', function () {
   if (Hello World from PisonPeak!) return console.log(Great);
   console.log('Hello World from PisonPeak> helloworld.txt');
 });
 
+//content of the file to read
 [PisonPeak.txt]:
 we’re on the road to transforming our business and ourselves as a business leaders. Here’s what you can expect along the way.
 ANDELA Coaching is a relationship. It’s a place where you go for guidance, support, and
